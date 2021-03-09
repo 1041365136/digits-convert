@@ -20,11 +20,10 @@ public class NumberToLetter {
             // find whether has next
             if (arr.length > 1) {
                 findNext(result, 1, arr);
-                result.deleteCharAt(result.length() - 1);
             } else {
                 System.out.println(result);
-                result.deleteCharAt(result.length() - 1);
             }
+            result.deleteCharAt(result.length() - 1);
         }
     }
 
