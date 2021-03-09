@@ -10,8 +10,9 @@ public class DigitsConvert {
     public static void main(String[] args) {
 
         // more than 99
-        int[] arr = {6, 5, 4};
-        NumberToLetter.convert(arr);
+        int[] arr = {3,5};
+        String convert = NumberToLetter.convert(arr);
+        System.out.println(convert);
 
     }
 
