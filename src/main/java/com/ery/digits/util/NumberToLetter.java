@@ -23,6 +23,7 @@ public class NumberToLetter {
                 result.deleteCharAt(result.length() - 1);
             } else {
                 System.out.println(result);
+                result.deleteCharAt(result.length() - 1);
             }
         }
     }
